@@ -22,16 +22,16 @@
 ## 🗂️ 프로젝트 구조
 
 .
-├── Face_detection.py         # Mediapipe 기반 얼굴 인식
-├── Clap_detection.py         # 박수 소리 인식 및 반응
-├── count_V_detection.py      # 손가락 V 제스처 인식
-├── Throwing_detection.py     # 던지기 제스처 인식
-├── sound_detection.py        # 사운드(음성) 인식 및 효과음 재생
-├── registered_face.npy       # 등록된 얼굴 데이터
-├── kick.mp3                  # 킥 드럼 효과음
-├── hi_hat.mp3                # 하이햇 효과음
-├── wow.mp3                   # “Wow” 효과음
-└── README.md                 # 설명 파일
+├── Face_detection.py         # Mediapipe 기반 얼굴 인식   
+├── Clap_detection.py         # 박수 소리 인식 및 반응   
+├── count_V_detection.py      # 손가락 V 제스처 인식   
+├── Throwing_detection.py     # 던지기 제스처 인식   
+├── sound_detection.py        # 사운드(음성) 인식 및 효과음 재생   
+├── registered_face.npy       # 등록된 얼굴 데이터   
+├── kick.mp3                  # 킥 드럼 효과음   
+├── hi_hat.mp3                # 하이햇 효과음   
+├── wow.mp3                   # “Wow” 효과음   
+└── README.md                 # 설명 파일   
 
 ---
 
