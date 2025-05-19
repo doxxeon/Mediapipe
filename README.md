@@ -41,46 +41,50 @@
 ```bash
 python -m venv venv
 source venv/bin/activate  # Windows는 .\venv\Scripts\activate
+```
 
-2. 라이브러리 설치
-
+### 2. 라이브러리 설치
+```bash
 pip install mediapipe opencv-python numpy pygame sounddevice
-
-※ 필요 시 soundfile, scipy 등의 라이브러리도 추가로 설치해 주세요.
+```
 
 ⸻
 
-🚀 실행 방법
+### 🚀 실행 방법
 
 얼굴 인식
-
+```bash
 python Face_detection.py
+```
 
 박수 소리 인식
-
+```bash
 python Clap_detection.py
+```
 
 손가락 V 제스처 인식
-
+```bash
 python count_V_detection.py
+```
 
 던지기 제스처 인식
-
+```bash
 python Throwing_detection.py
+```
 
 음성 및 효과음 인식
-
+```bash
 python sound_detection.py
-
+```
 
 ⸻
 
-🎵 효과음
+### 🎵 효과음
 
-파일	설명
-kick.mp3	박수나 제스처에 반응하는 킥 드럼 소리
-hi_hat.mp3	박수 후 재생되는 하이햇 사운드
-wow.mp3	감탄을 표현하는 음성 효과
+| 파일 |	설명 |
+| kick.mp3 | 박수나 제스처에 반응하는 킥 드럼 소리 |
+| hi_hat.mp3 | 박수 후 재생되는 하이햇 사운드 |
+| wow.mp3 | 감탄을 표현하는 음성 효과 |
 
 
 ⸻
